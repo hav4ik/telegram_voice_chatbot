@@ -1,0 +1,5 @@
+omegaconf==2.3.0
+pyTelegramBotAPI==4.13.0
+openai==0.28.0
+azure-cognitiveservices-speech==1.31.0
+pydub==0.25.1

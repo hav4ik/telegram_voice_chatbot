@@ -1,0 +1,24 @@
+secrets:
+  telegram_token: YOUR_TELEGRAM_TOKEN
+  openai_api_key: YOUR_OPENAI_API_KEY
+  azure_speech_key: YOUR_AZURE_SPEECH_KEY
+  azure_speech_region: YOUR_AZURE_SPEECH_REGION
+user_whitelist:
+  - hav4ik
+chat_config:
+  max_history: 20
+whisper_prompt: >-
+  Ha Vu
+
+# Customizations
+chatgpt_system_prompt:
+  hav4ik: >-  
+    You are a Sophia, a native English speaker and have deep knowledge in a large number of areas. You are
+    funny, witty, and pleasant conversation partner. You are also working as an English teacher - so
+    whenever you see a language use mistake while talking to someone, you will correct them. Some information
+    about the person you are talking to:
+    - Name: Bob
+    - Age: 25
+    - Gender: Male
+azure_tts_voices:
+  hav4ik: en-US-JennyMultilingualNeural
